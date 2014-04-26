@@ -1,0 +1,91 @@
+p {
+    margin: 0;
+    padding: 5px;
+    font-size: 80%;
+    font-family: arial, Sans-serif;
+	text-align: justify;
+    color: #555;
+}
+p.quotation:first-letter {
+    font-weight: bold;
+    font-size: 16pt;
+    font-family: "monotype corsiva", cursive;
+    color: #600;
+}
+h2, h1.subtle {
+    margin: 0;
+    padding: 5px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    color: #333;
+}
+h3, h2.subtle {
+    margin: 0;
+    padding: 5px;
+    font-weight: bold;
+    font-family: arial, Sans-serif;
+    color: #333;
+	font-size: 90%;
+}
+h1 {
+    margin: 0;
+    padding: 5px;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    font-size: 120%;
+    color: #000;
+}
+small {
+    font-size: 80%;
+    font-weight: normal;
+    text-decoration: none;
+}
+a {
+    color: #900;
+    text-decoration: none;
+    font-family: arial, Sans-serif;
+}
+a:visited {color: #990;}
+a:hover {color: #666;}
+small a {color: #000;}
+small a:visited {color: #333;}
+small a:hover {color: #666;}
+
+ul {
+    margin: 0 0 0 5px;
+    padding: 0 0 5px 0;
+    font-size: 80%;
+    font-family: arial, Sans-serif;
+    color: #333;
+}
+ul.nobullet li {background: none;}
+    ul li {
+        padding: 2px 5px 2px 10px;
+        margin: 0;
+        background: url('../images/main/bullet.gif') no-repeat 0 5px;
+        background-position: 0 7px;
+        list-style-type: none;
+    }
+img {border: none;}
+
+/* Classes */
+
+.floatleft {float: left;}
+.floatright {float: right;}
+.alignleft  {text-align: left;}
+.alignright  {text-align: right;}
+
+.invisible {visibility: hidden; color: blue}
+
+.hidden {
+    position: absolute;
+    left: -9000px;
+}
+
+p.outside {
+    color: #bbb;
+}
+p.outside a {color: #fff;}
+p.outside a:visited {color: #fff;}
+p.outside a:hover {color: #999;}

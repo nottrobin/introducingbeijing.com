@@ -1,0 +1,40 @@
+    <title><!--#echo var="title"--></title>
+    
+    <meta name="description" content="<!--#echo var='desc'-->" />
+    <meta name="keywords" content="<!--#echo var='keys'-->" />
+    <meta name="author" content="Robin Winslow" />
+    
+    <link rel="Start" href="index.html" />
+    <link rel="Next" href="<!--#echo var='next'-->" />
+    <link rel="Prev" href="<!--#echo var='prev'-->" />
+    <link rel="Contents" href="sitemap.html" />
+    
+    <!-- Screen stylesheets -->
+    <link rel="stylesheet" media="screen" type="text/css" href="/css/content.css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="/css/layout_main.css" />
+    <!--#if expr="${pageclass} = /\(^| \)home\($| \)/"--><link rel="stylesheet" media="screen" type="text/css" href="/css/layout_home.css" /><!--#endif -->
+    <!--#if expr="${pageclass} = /\(^| \)popup\($| \)/"--><link rel="stylesheet" media="screen" type="text/css" href="/css/layout_popup.css" /><!--#endif -->
+    <!--#if expr="${pageclass} = /\(^| \)nomenu\($| \)/"--><link rel="stylesheet" media="screen" type="text/css" href="/css/layout_no_menu.css" /><!--#endif -->
+    <!--[if IE 7]><link rel="stylesheet" media="screen" type="text/css" href="/css/ie7.css" /><![endif]-->
+    <!--[if !IE 7]><link rel="stylesheet" media="screen" type="text/css" href="/css/ie6.css" /><![endif]-->
+    
+    <!-- Javascript -->
+    <script type="text/javascript" src="/js/lib/imageCycler.js"></script>
+    <script type="text/javascript" src="/js/lib/generalMethods.js"></script>
+    <script type="text/javascript" src="/js/lib/browserDetect.js"></script>
+    
+    <script type="text/javascript" src="http://www.google-analytics.com/urchin.js"></script><!-- for google analytics -->
+    <script type="text/javascript">
+      <!--
+        // Google analytics
+        _uacct = "UA-1542847-1";
+        urchinTracker();
+        
+        function load_functions() {
+<!--#if expr="${pageclass} = /\(^| \)home\($| \)/" --><!--#include virtual="../js/start_home.js" --><!--#endif -->
+<!--#if expr="${pageclass} = /\(^| \)normal\($| \)/" --><!--#include virtual="../js/start_normal.js" --><!--#endif -->
+<!--#if expr="${pageclass} = /\(^| \)popup\($| \)/" --><!--#include virtual="../js/start_popup.js" --><!--#endif -->  
+            return;
+        }
+      -->
+    </script>

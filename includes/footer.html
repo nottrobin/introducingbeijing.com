@@ -1,0 +1,17 @@
+      <div id="bottom">
+        <!--#if expr="${pageclass} != 'nomenu'" -->
+        <p id="sitemaplink" class="outside">
+          <small>
+            <strong><a href="/sitemap.html" accesskey="s" tabindex="6"<!--#if expr="${pageclass} = 'popup'"--> onclick="return generalMethods.openInParent(this.href);"<!--#endif -->>site map</a></strong>
+          </small>
+        </p>
+        <hr class="hidden" />
+        <!--#endif -->
+        <p id="designad" class="outside">
+          <small>
+            <!--#if expr="${pageclass} != /\(^| \)popup\($| \)/"--><!--#set var="pop" value="1" --><!--#endif -->
+            <a href="/sca.html#standards_compliance"<!--#if expr="${pop}"--> onclick="return generalMethods.openNew(this.href,525,400);"<!--#endif --> tabindex="7">standards compliant</a> and <a href="/sca.html#accessibility"<!--#if expr="${pop}"--> onclick="return generalMethods.openNew(this.href,600,400);"<!--#endif -->>accessible</a> website design by <strong><a href="http://www.robinwinslow.me.uk/" tabindex="8">Robin Winslow</a></strong>
+            <!--#endif -->
+          </small>
+        </p>
+      </div>

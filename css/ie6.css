@@ -1,0 +1,128 @@
+/*****************
+* Content changes
+*****************/
+body {font-size: 80%;}
+
+
+/*********************
+* Main layout changes 
+*********************/
+#header {
+    background-image: url('../images/header/main_back.jpg');
+    margin-bottom: 4px;
+}
+    #header h1 {
+        position: absolute;
+        top: -9000px;
+        left: -9000px;
+    }
+    
+/* change images to ie6 friendly versions (jpgs rather than pngs) */
+/*change widths to allow for ie6 box model*/
+#mainnav li#nav_home a {
+    background-image: url('../images/nav/home.jpg');
+    width: 75px
+}
+    #mainnav li#nav_home a:hover {background-image: url('../images/nav/home_hover.jpg');}
+    #mainnav li#nav_home span.rollover_preloader {
+        background-image: url('../images/nav/home_hover.jpg');
+        display: none;
+    }
+    body#home #mainnav li#nav_home a {background-image: url('../images/nav/home_current.jpg');}
+
+#mainnav li#nav_day_one a {
+    background-image: url('../images/nav/day_one.jpg');
+    width: 95px;
+}
+    #mainnav li#nav_day_one a:hover {background-image: url('../images/nav/day_one_hover.jpg');}
+    #mainnav li#nav_day_one span.rollover_preloader {
+        background-image: url('../images/nav/day_one_hover.jpg');
+        display: none;
+    }
+    body#day_one #mainnav li#nav_day_one a {background-image: url('../images/nav/day_one_current.jpg');}
+
+#mainnav li#nav_day_two a {
+    background-image: url('../images/nav/day_two.jpg');
+    width: 93px;
+}
+    #mainnav li#nav_day_two a:hover {background-image: url('../images/nav/day_two_hover.jpg');}
+    #mainnav li#nav_day_two span.rollover_preloader {
+        background-image: url('../images/nav/day_two_hover.jpg');
+        display: none;
+    }
+    body#day_two #mainnav li#nav_day_two a {background-image: url('../images/nav/day_two_current.jpg');}
+
+#mainnav li#nav_day_three a {
+    background-image: url('../images/nav/day_three.jpg');
+    width: 105px;
+}
+    #mainnav li#nav_day_three a:hover {background-image: url('../images/nav/day_three_hover.jpg');}
+    #mainnav li#nav_day_three span.rollover_preloader {
+        background-image: url('../images/nav/day_three_hover.jpg');
+        display: none;
+    }
+    body#day_three #mainnav li#nav_day_three a {background-image: url('../images/nav/day_three_current.jpg');}
+
+#mainnav li#nav_contact_us a {
+    background-image: url('../images/nav/contact_us.jpg');
+    width: 112px;
+}
+    #mainnav li#nav_contact_us a:hover {background-image: url('../images/nav/contact_us_hover.jpg');}
+    #mainnav li#nav_contact_us span.rollover_preloader {
+        background-image: url('../images/nav/contact_us_hover.jpg');
+        display: none;
+    }
+    body#contact_us #mainnav li#nav_contact_us a {background-image: url('../images/nav/contact_us_current.jpg');}
+
+/* Change background images for main body background */
+/* Box model fixes */
+#maincontent .sectiontop {
+    background-image: url('../images/main/mainsectiontop.jpg');
+    margin-bottom: -7px;
+}
+#maincontent .sectionbottom {background-image: url('../images/main/mainsectionbottom.jpg')}
+#maincontent .section {
+    background-image: url('../images/main/mainsectionback.jpg');
+    width: 750px;
+}
+
+#bottom {
+    color: #999;
+    margin: 0;
+    padding: 0 15px 10px 15px;
+}
+
+/**************************
+* layout_popup.css changes 
+**************************/
+body.popup #maincontent .sectiontop {background-image: url('../images/main/mainsectionshorttop.jpg');}
+body.popup #maincontent .section {background-image: url('../images/main/mainsectionshortback.jpg');}
+body.popup #maincontent .sectionbottom {background-image: url('../images/main/mainsectionshortbottom.jpg')}
+
+body.popup #maincontent .section {width: 500px;}
+
+
+/*************************
+* layout_home.css changes 
+*************************/
+body#home #header {background-image: url('../images/header/great_wall_1.jpg')}
+    #header blockquote {
+        background-image: none;
+        width: 333px;
+        height: 137px;
+		margin: 185px 0 0 437px;
+        padding: 23px 20px 0 72px;
+    }
+    #header #headerBackgroundControls {
+        float: right;
+        color: #990;
+        margin: 10px 5px; 
+        padding: 0;
+    }
+
+
+
+/****************************
+* layout_no_menu.css changes 
+****************************/
+body.no_menu #header {background-image: url('../images/header/main_back.jpg')}

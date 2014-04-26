@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--#config timefmt="%F" -->
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+    <url>
+        <loc>http://www.introducingbeijing.com/index.html</loc>
+        <lastmod><!--#flastmod file="index.html" --></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://www.introducingbeijing.com/day_one.html</loc>
+        <lastmod><!--#flastmod file="day_one.html" --></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://www.introducingbeijing.com/day_two.html</loc>
+        <lastmod><!--#flastmod file="day_two.html" --></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://www.introducingbeijing.com/day_three.html</loc>
+        <lastmod><!--#flastmod file="day_three.html" --></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://www.introducingbeijing.com/contact.html</loc>
+        <lastmod><!--#flastmod file="contact.html" --></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>http://www.introducingbeijing.com/sca.html</loc>
+        <lastmod><!--#flastmod file="sca.html" --></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>http://www.introducingbeijing.com/sitemap.html</loc>
+        <lastmod><!--#flastmod file="sitemap.html" --></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.0</priority>
+    </url>
+</urlset> 

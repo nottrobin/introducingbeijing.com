@@ -1,0 +1,19 @@
+body {background-position: 0 0;}
+
+#header {
+    background-image: url('../images/header/great_wall_1.png');
+    width: 750px;
+    height: 320px;
+}
+    #header #headerBackgroundControls {
+        float: right;
+        color: #990;
+        margin: 10px 15px; 
+        padding: 0;
+    }
+        #header #headerBackgroundControls span:hover {color: #bb0;}
+        #header #headerBackgroundControls span {
+            margin: 0 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }

@@ -1,0 +1,170 @@
+body {
+    background: #900 url('../images/background.jpg') repeat-x 0 -213px;
+    padding: 0 0 0 50%; /* for centre positioning - we now give the main element a negative margin equal to half it's width */
+    margin: 0;
+}
+
+#mainbody {
+    width: 750px;
+    margin-left: -375px; /* for centre positioning - so the centre of this element is what's padded out to 50% across the page by the body */
+}
+
+#header {  
+    background-image: url('../images/header/main_back.jpg');
+/*    background-image: url('../images/header/main_back.png');*/
+    background-repeat: no-repeat;
+    width: 750px;
+    height: 107px;
+    margin: 10px 0 0 0;
+}
+    #header h1 {
+        position: absolute;
+        top: -9000px;
+        left: -9000px;
+    }
+/*
+    #header h1 {
+        width: 280px;
+        height: 120px;
+        margin: 0;
+        padding: 0;
+    }
+	#header h1 a {
+		display: block;
+		padding: 0;
+		margin: 0;
+		height: 120px;
+	}
+*/
+
+#mainnav {
+    padding: 0;
+    margin: 0 122px;
+    height: 25px;
+}
+    #mainnav li {
+        float: left;
+        padding: 0 1px;
+        margin: 0;
+        background-image: none;
+        border-right: 1px solid #600;
+        border-left: 1px solid #600;
+    }
+    #mainnav li.left {border-left: none;}
+    #mainnav li.right {border-right: none;}
+        /* hide text */
+        #mainnav li span {
+            position: absolute;
+            left: -9000px;
+        }
+        /* set up each nav cell */
+        #mainnav li a {
+            display: block;
+            background-repeat: no-repeat;
+            background-position: center center;
+            padding: 0 10px;
+            height: 25px;
+            border-right: 1px solid #600;
+            border-left: 1px solid #600;
+        }
+        /* remove left and right borders */
+        #mainnav li.left a {border-left: none;}
+        #mainnav li.right a {border-right: none;}
+
+            /* set images and widths for each cell for each instance */
+            #mainnav li#nav_home a {
+                background-image: url('../images/nav/home.png');
+                width: 55px
+            }
+            #mainnav li#nav_home a:hover {background-image: url('../images/nav/home_hover.png');}
+            #mainnav li#nav_home span.rollover_preloader {
+                background-image: url('../images/nav/home_hover.png');
+                display: none;
+            }
+            body#home #mainnav li#nav_home a {background-image: url('../images/nav/home_current.png');}
+
+            #mainnav li#nav_day_one a {
+                background-image: url('../images/nav/day_one.png');
+                width: 75px;
+            }
+            #mainnav li#nav_day_one a:hover {background-image: url('../images/nav/day_one_hover.png');}
+            #mainnav li#nav_day_one span.rollover_preloader {
+                background-image: url('../images/nav/day_one_hover.png');
+                display: none;
+            }
+            body#day_one #mainnav li#nav_day_one a {background-image: url('../images/nav/day_one_current.png');}
+
+            #mainnav li#nav_day_two a {
+                background-image: url('../images/nav/day_two.png');
+                width: 73px;
+            }
+            #mainnav li#nav_day_two a:hover {background-image: url('../images/nav/day_two_hover.png');}
+            #mainnav li#nav_day_two span.rollover_preloader {
+                background-image: url('../images/nav/day_two_hover.png');
+                display: none;
+            }
+            body#day_two #mainnav li#nav_day_two a {background-image: url('../images/nav/day_two_current.png');}
+
+            #mainnav li#nav_day_three a {
+                background-image: url('../images/nav/day_three.png');
+                width: 85px;
+            }
+            #mainnav li#nav_day_three a:hover {background-image: url('../images/nav/day_three_hover.png');}
+            #mainnav li#nav_day_three span.rollover_preloader {
+                background-image: url('../images/nav/day_three_hover.png');
+                display: none;
+            }
+            body#day_three #mainnav li#nav_day_three a {background-image: url('../images/nav/day_three_current.png');}
+
+            #mainnav li#nav_contact_us a {
+                background-image: url('../images/nav/contact_us.png');
+                width: 92px;
+            }
+            #mainnav li#nav_contact_us a:hover {background-image: url('../images/nav/contact_us_hover.png');}
+            #mainnav li#nav_contact_us span.rollover_preloader {
+                background-image: url('../images/nav/contact_us_hover.png');
+                display: none;
+            }
+            body#contact_us #mainnav li#nav_contact_us a {background-image: url('../images/nav/contact_us_current.png');}
+
+#maincontent {
+    width: 750px;
+}
+    #maincontent .sectiontop {
+        width: 750px;
+        height: 9px;
+        background-repeat: no-repeat;
+        background-image: url('../images/main/mainsectiontop.jpg');
+        /*background-image: url('../images/main/mainsectiontop.png');*/
+    }
+    #maincontent .section {
+        width: 720px;
+        background-repeat: repeat-y;
+        background-image: url('../images/main/mainsectionback.jpg');
+        /*background-image: url('../images/main/mainsectionback.png');*/
+        padding: 0 15px;
+    }
+    #maincontent .sectionbottom {
+        width: 750px;
+        height: 9px;
+        background-repeat: no-repeat;
+        background-image: url('../images/main/mainsectionbottom.jpg');
+        /*background-image: url('../images/main/mainsectionbottom.png');*/
+    }
+    
+#bottom {
+    margin: 0;
+    padding: 0 5px;
+}
+#bottom p {
+	padding: 0 5px;
+}
+
+#bottom #sitemaplink {
+    float: left;
+}
+#bottom #designad {
+    float: right;
+    text-align: right;
+    vertical-align: middle;
+}

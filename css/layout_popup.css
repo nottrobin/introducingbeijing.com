@@ -1,0 +1,28 @@
+body {background: #900 none;}
+
+#mainbody {
+    width: 500px;
+    margin-left: -250px; /* for centre positioning - so the centre of this element is what's padded out to 50% across the page by the body */
+}
+
+body.popup #maincontent {width: 500px;}
+    body.popup #maincontent .sectiontop {
+        width: 500px;
+        height: 10px;
+        background-image: url('../images/main/mainsectionshorttop.png')
+    }
+    body.popup #maincontent .section {
+        width: 470px;
+        background-image: url('../images/main/mainsectionshortback.png')
+    }
+    body.popup #maincontent .sectionbottom {
+        width: 500px;
+        height: 10px;
+        background-image: url('../images/main/mainsectionshortbottom.png')
+    }
+
+#popupClose {
+    color: #000;
+    cursor: pointer;
+}
+#popupClose:hover {color: #999;}
